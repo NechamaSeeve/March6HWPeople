@@ -5,8 +5,7 @@ $(() => {
     $("#add-rows").on('click', function () {
         
        i++;
-        console.log('hiiiiii')
-      
+
         const html = ` <div id="ppl-rows">
                         <div class="row person-row" style="margin-bottom: 10px;">
                             <div class="col-md-4">
