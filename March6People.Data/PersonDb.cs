@@ -2,6 +2,7 @@
 
 namespace March6People.Data
 {
+
     public class Person
     {
         public int Id { get; set; }
