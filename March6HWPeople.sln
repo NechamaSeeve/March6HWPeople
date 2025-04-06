@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "March6HWPeople.Web", "March6HWPeople.Web\March6HWPeople.Web.csproj", "{4CDF25AA-4B0B-409D-9AC5-BA4C5B014102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "March6People.Data", "March6People.Data\March6People.Data.csproj", "{F3FAB452-B9EE-45BF-A822-50A14C93F8A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CDF25AA-4B0B-409D-9AC5-BA4C5B014102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDF25AA-4B0B-409D-9AC5-BA4C5B014102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDF25AA-4B0B-409D-9AC5-BA4C5B014102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDF25AA-4B0B-409D-9AC5-BA4C5B014102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FAB452-B9EE-45BF-A822-50A14C93F8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FAB452-B9EE-45BF-A822-50A14C93F8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FAB452-B9EE-45BF-A822-50A14C93F8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FAB452-B9EE-45BF-A822-50A14C93F8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E11A5427-2EB3-4674-A76D-3AF7CB28ECE8}
+	EndGlobalSection
+EndGlobal

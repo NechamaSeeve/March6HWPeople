@@ -1,0 +1,32 @@
+﻿<div b-ud2x8zyu5z class="container">
+    <main b-ud2x8zyu5z role="main" class="pb-3">
+
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <button class="btn btn-danger" id="add-rows">Add Row</button>
+                <form style="margin-top: 10px;" method="post">
+                    <div id="ppl-rows">
+                        <div class="row person-row" style="margin-bottom: 10px;">
+                            <div class="col-md-4">
+                                <input class="form-control" type="text" name="people[0].firstname" placeholder="First Name(required)" />
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" type="text" name="people[0].lastname" placeholder="Last Name(required)" />
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" type="text" name="people[0].Age" placeholder="Age(required)" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+    </main>
+</div>
+@section Scripts{
+    <script src="~/people.js"></script>
+}
